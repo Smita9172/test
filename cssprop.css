@@ -1,0 +1,12 @@
+#box{
+  background-color: rgb(74, 78, 159);
+  padding: 40px;
+  margin: 30px 60px;
+}
+.abesimg{
+  width: 400px;
+  height: 400px;
+  padding: 40px 20px;
+  display: block;
+  margin: auto;
+}
