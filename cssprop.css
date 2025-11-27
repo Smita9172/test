@@ -20,8 +20,20 @@
   flex-direction:row-reverse;
 }
 .box2{
-  background-color: blanchedalmond;
   padding: 4px 8px;
   margin: 6px;
-
+  color: #fff;
 }
+ .content{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px 8px;
+  background-color: rgba(82, 22, 119, 0.667);
+ }
+ .content li{
+  list-style: none;
+  display: inline;
+  color: #fff;
+  justify-content: space-between;
+  padding: 4px 8px;
+ }
