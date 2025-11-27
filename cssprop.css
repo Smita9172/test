@@ -10,3 +10,16 @@
   display: block;
   margin: auto;
 }
+.box-in{
+  color: #fff;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(87, 120, 120);
+}
+.box2{
+  background-color: blanchedalmond;
+  padding: 4px 8px;
+
+}
