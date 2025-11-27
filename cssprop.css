@@ -17,9 +17,11 @@
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(87, 120, 120);
+  flex-direction:row-reverse;
 }
 .box2{
   background-color: blanchedalmond;
   padding: 4px 8px;
+  margin: 6px;
 
 }
