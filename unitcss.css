@@ -1,0 +1,30 @@
+.container{
+  display: flex;
+}
+h2{
+  color: #5a0d2f;
+  font-size: 4rem;
+}
+.box1{
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(5, 78, 39);
+  padding: 40px;
+  background-color: antiquewhite;
+}
+.box2{
+  padding: 2%;
+  font-size: 1.5rem;
+  color: #fff;
+  background-color: #060b47;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.box3{
+  padding: 2vh;
+  font-size:1.5em ;
+  color: blanchedalmond;
+  background-color: #b60451;
+}
+h4{
+  font-size: 4vw;
+}
