@@ -6,11 +6,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registration Form </title>
+  <link rel="stylesheet" href="/htmlcss/register.css">
 </head>
 <body style="text-align: center;">
-  <form> 
+  <form class="form"> 
     <h2>Registration Form </h2>
-  <div>
+  <div class="header">
     <label for="">Name:  </label>
     <input type="name" id="name" style="margin-bottom: 15px;" required > <br>
     <label for="">Email: </label>
@@ -20,7 +21,9 @@
       <label for="">Father's Name:  </label>
     <input type="name" name="" id="" style="margin-bottom: 15px;" required><br>
   </div>
-  <div>
+
+
+  <div class="course">
     <label for=""> Select your course : </label>
     <input type="radio" name="course" style="margin-bottom: 15px;">
     <label >MCA </label>
@@ -29,11 +32,15 @@
      <input type="radio" name="course">
     <label >M.tech</label>
   </div>
-  <div style="margin-bottom: 15px;">
+
+
+  <div class="textbox">
     <label for="">define your skill</label>
     <textarea name="AboutYour" id="" rows="4"  ></textarea>
   </div>
-  <div >
+
+
+  <div class="gender">
     <label for=""> Gender</label>
     <select name="gender" style="margin-bottom: 15px;" id="">
       <option> Male </option>
