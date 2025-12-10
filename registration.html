@@ -8,20 +8,29 @@
   <title>Registration Form </title>
   <link rel="stylesheet" href="/htmlcss/register.css">
 </head>
-<body style="text-align: center;">
-  <form class="form"> 
+<body>
+  <form class="form" > 
     <h2>Registration Form </h2>
   <div class="header">
-    <label for="">Name:  </label>
-    <input type="name" id="name" style="margin-bottom: 15px;" required > <br>
-    <label for="">Email: </label>
-    <input type="email" name="email" style="margin-bottom: 15px;" id="" required><br>
-      <label for="">Mobile Number : </label>
-    <input type="number" name="mobile" id="" style="margin-bottom: 15px;" required ><br>
-      <label for="">Father's Name:  </label>
-    <input type="name" name="" id="" style="margin-bottom: 15px;" required><br>
-  </div>
-
+    <table>
+      <tr>
+        <td><label>Name</label></td>
+        <td><input type="text" name="name" id="name"></td>
+      </tr>
+      <tr>
+        <td><label class="nameEmail" for="">Email: </label> </td>
+        <td><input type="email" name="email" style="margin-bottom: 15px;" id="" required> </td>
+      </tr>
+      <tr>
+        <td>  <label class="fatherMobile" for="">Father's Name:  </label></td>
+        <td><input type="email" name="email" style="margin-bottom: 15px;" id="" required> </td>
+      </tr>
+      <tr>
+        <td> <label class="fatherMobile" for="">Mobile Number : </label></td>
+        <td> <input type="number" name="mobile" id="" style="margin-bottom: 15px;" required > </td>
+      </tr>
+    </table>
+    </div>
 
   <div class="course">
     <label for=""> Select your course : </label>
