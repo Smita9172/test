@@ -7,11 +7,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Registration Form </title>
   <link rel="stylesheet" href="/htmlcss/register.css">
+  <style>
+    @media(min-width:600px){
+      .header {
+        padding-right: 10px;
+        
+      }
+    }
+    input{
+      height: auto;
+      width: 100px;
+    }
+  </style>
 </head>
 <body>
   <form class="form" > 
     <h2>Registration Form </h2>
-  <div class="header">
+  <div class="header" >
     <table>
       <tr>
         <td><label>Name</label></td>
@@ -19,15 +31,15 @@
       </tr>
       <tr>
         <td><label class="nameEmail" for="">Email: </label> </td>
-        <td><input type="email" name="email" style="margin-bottom: 15px;" id="" required> </td>
+        <td><input type="email" name="email"  id="" required> </td>
       </tr>
       <tr>
         <td>  <label class="fatherMobile" for="">Father's Name:  </label></td>
-        <td><input type="email" name="email" style="margin-bottom: 15px;" id="" required> </td>
+        <td><input type="email" name="email"  id="" required> </td>
       </tr>
       <tr>
         <td> <label class="fatherMobile" for="">Mobile Number : </label></td>
-        <td> <input type="number" name="mobile" id="" style="margin-bottom: 15px;" required > </td>
+        <td> <input type="number" name="mobile" id=""  required > </td>
       </tr>
     </table>
     </div>
