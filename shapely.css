@@ -1,0 +1,115 @@
+
+.navbar{
+  display: flex;
+  margin: auto 100px;
+  justify-content: space-between;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 52px;
+  font-weight: 300;
+}
+  .nav-right ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+        }
+
+        .banner {
+            width: 100%;
+            height: 600px;
+            background: url('https://colorlibhub.com/wp-content/uploads/sites/59/2016/03/photo-1443527216320-7e744084f5a7-1.jpg')
+                center/cover no-repeat;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;  
+        }
+        .banner-box{     
+         margin: auto 200px;
+         padding-bottom: 60px;
+        }
+        .banner-box h1{
+          color:#fff;
+          font-size: 4rem;
+          font-weight: 400;
+          text-align: center;
+        }
+         .banner-box h4{
+          color:#fff;
+          text-align: center;
+          font-weight: 400;
+         }
+        .banner-box a{
+          color: white;
+          text-decoration: none;
+          background-color: blueviolet;
+          padding: 15px 40px;
+          font-family:Arial, Helvetica, sans-serif;
+          font-size: 12px;
+          text-align: center;
+        }
+
+        .banner2{
+          display: flex;
+          margin: auto 200px;
+          padding: 60px 0;
+        }
+        .bam2-box{
+          flex: 1;
+        }
+        .ban2-left img{
+          width: 600px;
+          height: auto;
+        }
+        .ban2-right{
+          padding: 80px;
+        }
+         .ban2-right h3{
+          font-size: 1.5rem;
+          font-weight: 400;
+
+         }
+         .ban2-right p{
+          margin-bottom: 40px;
+         }
+         .ban2-right a{
+          color: white;
+          text-decoration: none;
+          background-color: blueviolet;
+          padding: 15px 40px;
+          font-family:Arial, Helvetica, sans-serif;
+          font-size: 12px;
+          text-align: center;
+         }
+         .limit{
+          margin: auto 300px;
+          padding: 60px 0;
+          text-align: center;
+         }
+         .next-limit{
+         margin: auto 150px;
+         }
+         .next-limit img{
+          width: 1200px;
+          height: 854px;
+         }
+         .lastest{
+          background-color: black;
+          color: #fff;
+          text-align: center;
+          padding: 40px 80px;
+          font-weight: 300;
+          margin-top: 0;
+         }
+         .New-projects{
+          display: grid; 
+          gap: 10px;
+         grid-template-columns: repeat(4,1fr);
+         grid-template-rows: auto auto;
+         }
+         .projects img{
+          object-fit: fill;
+          width: 300px;
+         }
+
+
