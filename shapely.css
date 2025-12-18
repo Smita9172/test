@@ -113,3 +113,58 @@
          }
 
 
+
+         .customer{
+          background: url(https://colorlibhub.com/wp-content/uploads/sites/59/2016/12/photo-1451417379553-15d8e8f49cde.jpg);
+         }
+         .custom{
+          margin: auto 300px;
+          padding: 60px 40px ;
+          color: #fff;
+          text-align: center;
+         }
+
+
+
+
+
+
+
+
+
+         .theme{
+          display: flex;
+          margin: auto 200px;
+          padding: 40px;
+         }
+         .theme h3{
+          font-weight: 200;
+          font-size: 2rem;
+         }
+       
+
+
+
+
+
+         
+     footer {
+            background: #000;
+            padding: 40px 150px 40px;
+            color: white;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .footer-links h3{
+            color: white;
+            margin-right: 15px;
+            text-decoration: none;
+            font-weight: 400;
+            font-size: 1rem;
+        }
+
+        .footer-links a:hover {
+            color: #ffcc00;
+        }
